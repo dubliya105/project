@@ -1,0 +1,25 @@
+.studentCard {
+    width: 90%; /* Set card width to 50% of its container */
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.cardHeader {
+    background: linear-gradient(135deg, #007bff, #6c757d); /* Gradient background */
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.listGroupItem {
+    font-size: 18px;
+}
+
+.listGroupItem strong {
+    color: #007bff; /* Highlighted text color */
+}
+@media (max-width: 768px) {
+    .studentCard {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}
